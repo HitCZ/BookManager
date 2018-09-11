@@ -11,5 +11,6 @@ namespace BookManager.Models {
         public string Isbn { get; set; }
         public int YearOfRelease { get; set; }
         public List<Author> Authors { get; set; }
+
     }
 }
